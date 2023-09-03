@@ -57,7 +57,8 @@ assign sum=a^b^c;
 assign carry=((a&b)|(b&c)|(c&a));
 endmodule
 ```
-### RTL Diagram:
+### RTL Diagram:![image](https://github.com/ShamRathan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/93587823/136c8a48-ba47-44fa-83f2-10e45f9cb4d2)
+
 #### Half Adder:
 ![image](https://github.com/ShamRathan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/93587823/7a37f1bf-762f-4aa5-b808-760ddfe1e266)
 #### Full Adder:
@@ -73,7 +74,8 @@ endmodule
 #### Half Adder:
 ![image](https://github.com/ShamRathan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/93587823/5cb59096-d0ef-43c8-be9a-5fa5a1c1864e)
 #### Full Adder:
-![Uploading image.png…]()
+
+![image](https://github.com/ShamRathan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/93587823/0bf258bd-2184-4f6a-a8c5-271478b7371a)
 
 
 
