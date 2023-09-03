@@ -1,4 +1,4 @@
-# Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit
+# Exp-03 Implementation of Half Adder and Full Adder circuit:
 
 # Implementation-of-Half-Adder-and-Full-Adder-circuit
 ### AIM:
@@ -34,21 +34,48 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = A
 Connect the supply (+5V) to the circuit
 Switch ON the main switch
 If the output is 1, then the led glows.
-### 
-Program:
-/*
-Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
-Logic symbol & Truthtable
-RTL realization
+### Program:
+```
+Developed by: Sham Rathan.S
+RegisterNumber: 212221230093  
+```
+### Half Adder:
+```
+module Experiment03(A,B,S,C);
+input A,B;
+output S,C;
+assign S=A^B;
+assign C=A&B;
+endmodule
+```
+### Full Adder:
+```
+module EX03(a,b,c,sum,carry);
+input a,b,c;
+output sum,carry;
+assign sum=a^b^c;
+assign carry=((a&b)|(b&c)|(c&a));
+endmodule
+```
+### RTL Diagram:
+#### Half Adder:
+![image](https://github.com/ShamRathan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/93587823/7a37f1bf-762f-4aa5-b808-760ddfe1e266)
+#### Full Adder:
+![image](https://github.com/ShamRathan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/93587823/2a21db5d-2ddb-4a98-ad62-cfb2df769c85)
 
-### Output:
-### RTL
-### TIMING DIAGRAM
+### TRUTH TABLE::
+#### Half Adder:
+![image](https://github.com/ShamRathan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/93587823/75c45f39-d6f2-4e0c-9cec-4393047efb9f)
+#### Full Adder:
+![image](https://github.com/ShamRathan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/93587823/455cb998-8ada-4abb-9aac-52ad695591c0)
+
+### OUTPUT WAVEFORM:
+#### Half Adder:
+![image](https://github.com/ShamRathan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/93587823/5cb59096-d0ef-43c8-be9a-5fa5a1c1864e)
+#### Full Adder:
+![Uploading image.png…]()
 
 
-### TRUTH TABLE 
 
 ### Result:
+Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
