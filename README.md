@@ -71,7 +71,8 @@ endmodule
 
 ### OUTPUT WAVEFORM:
 #### Half Adder:
-![image](https://github.com/ShamRathan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/93587823/5cb59096-d0ef-43c8-be9a-5fa5a1c1864e)
+![image](https://github.com/ShamRathan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/93587823/4f67f84d-5de3-424f-8327-b2b9effb13f2)
+
 #### Full Adder:
 
 ![image](https://github.com/ShamRathan/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/93587823/0bf258bd-2184-4f6a-a8c5-271478b7371a)
